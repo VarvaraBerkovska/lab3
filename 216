@@ -1,0 +1,8 @@
+a = int(input("Введіть число a:"))
+b = int(input("Введіть число b:"))
+c = int(input("Введіть число c:"))
+numbers = [a, b, c]
+for n in numbers:
+    for number in range(10,100):
+        if number % 10 == n:
+            print(number, end=" ")

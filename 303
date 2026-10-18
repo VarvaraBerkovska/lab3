@@ -1,0 +1,6 @@
+a, b = map(int, input().split())
+
+start = a + a % 2
+
+for i in range(start, b + 1, 2):
+    print(i, end=" ")

@@ -1,0 +1,7 @@
+n = int(input())
+
+for k in [64, 32, 16, 8, 4, 2, 1]:
+    count = n // k
+    if count > 0:
+        print(count, "(" + str(k) + ")", end=" ")
+    n = n % k
